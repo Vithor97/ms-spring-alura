@@ -10,7 +10,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableEurekaClient
 @EnableFeignClients
 public class PagamentosApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(PagamentosApplication.class, args);
 	}
